@@ -1,0 +1,125 @@
+{
+	"name": "BinderHub Registry",
+	"description": "test binderhub description",
+	"url": "https://github.com/rosanna-smith/binderhub-test",
+	"binderhubs": [
+		{
+			"name": "BinderHub 1",
+			"description": "BinderHub 1 description",
+			"url": "BinderHub 1 url",
+			"authentication": "BinderHub 1 auth",
+			"resources": {
+				"architecture": [
+					"x86_64"
+				],
+				"cpu": {
+					"limit": 2,
+					"guarantee": 0.5
+				},
+				"gpu": {
+					"nvidia.com/gpu": 0
+				},
+				"memory": {
+					"limit": "8G",
+					"guarantee": "1G"
+				},
+				"storage": "5Gi"
+			},
+			"costPerHour": 0
+		},
+		{
+			"name": "BinderHub 2",
+			"description": "BinderHub 2 description",
+			"url": "BinderHub 2 url",
+			"authentication": "BinderHub 2 auth",
+			"authorisaton": "BinderHub 2 authorisation",
+			"resources": {
+				"architecture": [
+					"x86_64"
+				],
+				"cpu": {
+					"limit": 2,
+					"guarantee": 0.5
+				},
+				"gpu": {
+					"nvidia.com/gpu": 0
+				},
+				"memory": {
+					"limit": "8G",
+					"guarantee": "1G"
+				},
+				"storage": "5Gi"
+			},
+			"costPerHour": 0
+		},
+		{
+			"name": "BinderHub 3",
+			"description": "BinderHub 3 description",
+			"url": "BinderHub 3 url",
+			"authentication": "BinderHub 3 auth",
+			"resources": {
+				"architecture": [
+					"x86_64"
+				],
+				"cpu": {
+					"limit": 2,
+					"guarantee": 0.5
+				},
+				"gpu": {
+					"nvidia.com/gpu": 0
+				},
+				"memory": {
+					"limit": "8G",
+					"guarantee": "1G"
+				},
+				"storage": "5Gi"
+			},
+			"costPerHour": 0
+		},
+		{
+			"name": "BinderHub 4",
+			"description": "BinderHub 4 description",
+			"url": "BinderHub 4 url",
+			"resources": {
+				"architecture": [
+					"x86_64"
+				],
+				"cpu": {
+					"limit": 1,
+					"guarantee": 0.5
+				},
+				"gpu": {
+					"nvidia.com/gpu": 0
+				},
+				"memory": {
+					"limit": "4G",
+					"guarantee": "1G"
+				}
+			},
+			"costPerHour": 0
+		},
+		{
+			"name": "BinderHub 5",
+			"description": "BinderHub 5 description",
+			"url": "BinderHub 5 url",
+			"authentication": "BinderHub 5 auth",
+			"authorisaton": "BinderHub 5 authorisation",
+			"resources": {
+				"cpu": {
+					"limit": 32,
+					"guarantee": 8
+				},
+				"gpu": {
+					"nvidia.com/gpu": 32
+				},
+				"memory": {
+					"limit": "64G",
+					"guarantee": "4G"
+				},
+				"storage": "256Gi"
+			},
+			"testOnly": true,
+			"costPerHour": 100
+		}
+	]
+}
